@@ -679,7 +679,7 @@ const CATEGORIES = [
     {title:"Management",discussion:"What is the evidence-based approach to acute CHS management in the ED?",children:[
       {title:"Acute management: aggressive IV fluid resuscitation, electrolyte correction (hypokalemia, hyponatremia common)"},
       {title:"Topical capsaicin (0.075% cream to abdomen): activates TRPV1; response within 30\u201360 min; increasingly evidence-supported (Dean et al., Clin Toxicol 2020)"},
-      {title:"Haloperidol 1\u20132 mg IV/IM: emerging evidence from case series; may be more effective than standard antiemetics (Witsil & Mycyk, Am J Ther 2017)"},
+      {title:"Haloperidol 5 mg IV (or 0.05\u20130.1 mg/kg): emerging evidence from case series; may be more effective than standard antiemetics (Witsil & Mycyk, Am J Ther 2017)"},
       {title:"IV benzodiazepines (lorazepam): for anxiety and as adjunct antiemetic"},
       {title:"Droperidol 0.625\u20131.25 mg IV: effective in refractory cases"},
       {title:"Standard antiemetics (ondansetron, metoclopramide) typically INEFFECTIVE \u2014 a key teaching point that distinguishes CHS from other vomiting etiologies"},
@@ -711,7 +711,7 @@ const CATEGORIES = [
   ]},
   {id:"cat10",name:"Special Populations",color:"var(--cat10)",subtopics:[
     {title:"Cannabis Use in Pregnancy",discussion:"What is the evidence for cannabis harm in pregnancy, and how should clinicians counsel patients?",children:[
-      {title:"ACOG Committee Opinion 722: recommends complete abstinence; insufficient safety data; discourage use for morning sickness"},
+      {title:"ACOG Clinical Consensus (2025, superseding Committee Opinion 722): recommends complete abstinence; insufficient safety data; discourage use for morning sickness"},
       {title:"THC crosses placenta; associated with lower birth weight (~100\u2013200g reduction), preterm birth (aOR 1.36), and NICU admission (Corsi et al., JAMA 2019)"},
       {title:"7% of pregnant women report past-month cannabis use; rates increasing post-legalization (Young-Wolff et al., JAMA 2019)"},
       {title:"Breastfeeding: THC excreted in breast milk (breast milk:plasma ratio ~6:1); accumulates in infant adipose; AAP recommends abstinence during breastfeeding"},
@@ -886,7 +886,7 @@ const CASES = [
       {question:"Which acute treatment is most appropriate for this patient's CHS?",
         options:[
           {text:"IV ondansetron 8mg and metoclopramide",correct:false,feedback:"Standard antiemetics (ondansetron, metoclopramide) are typically ineffective in CHS — this is a key clinical teaching point. Her previous ondansetron dose already failed."},
-          {text:"Topical capsaicin 0.075% to abdomen + IV haloperidol 5mg",correct:true,feedback:"Correct. Topical capsaicin cream (0.075%) applied to the periumbilical area activates TRPV1 receptors, mimicking the mechanism of hot water relief. Haloperidol (2.5-5mg IV) has shown efficacy in case series for acute CHS (Witsil & Mycyk, Ther Adv Gastroenterol 2017). IV fluids and electrolyte correction are also essential given her dehydration and hypokalemia."},
+          {text:"Topical capsaicin 0.075% to abdomen + IV haloperidol 5mg",correct:true,feedback:"Correct. Topical capsaicin cream (0.075%) applied to the periumbilical area activates TRPV1 receptors, mimicking the mechanism of hot water relief. Haloperidol (2.5-5mg IV) has shown efficacy in case series for acute CHS (Witsil & Mycyk, Am J Ther 2017). IV fluids and electrolyte correction are also essential given her dehydration and hypokalemia."},
           {text:"Lorazepam 2mg IV and promethazine 25mg IV",correct:false,feedback:"Benzodiazepines may provide some sedation-related relief, but this combination does not address the underlying CHS pathophysiology. Haloperidol and capsaicin have more CHS-specific evidence."},
           {text:"Dronabinol (synthetic THC) to prevent withdrawal-related vomiting",correct:false,feedback:"Administering a cannabinoid agonist is contraindicated in CHS — continued cannabinoid exposure perpetuates the syndrome. Definitive treatment requires cannabis cessation."}
         ]},
@@ -921,7 +921,7 @@ const CASES = [
     steps:[
       {question:"What is the recommended clinical approach to this patient's cannabis use during pregnancy?",
         options:[
-          {text:"Cannabis is relatively safe in pregnancy — support continued use for symptom management since standard antiemetics may be less effective",correct:false,feedback:"This contradicts current guidelines. ACOG (2017, reaffirmed 2024) recommends discontinuation of cannabis during pregnancy and lactation. There is no established safe level of prenatal THC exposure."},
+          {text:"Cannabis is relatively safe in pregnancy — support continued use for symptom management since standard antiemetics may be less effective",correct:false,feedback:"This contradicts current guidelines. ACOG Clinical Consensus (2025) recommends discontinuation of cannabis during pregnancy and lactation. There is no established safe level of prenatal THC exposure."},
           {text:"Counsel discontinuation per ACOG guidelines, discuss evidence of potential harms, offer evidence-based alternatives for nausea, and use motivational interviewing to support her decision-making",correct:true,feedback:"Correct. ACOG explicitly recommends that obstetricians counsel patients to discontinue cannabis during pregnancy and while breastfeeding. THC crosses the placenta and is found in breast milk (breast milk:plasma ratio ~6:1). Prenatal cannabis is associated with lower birth weight (~100-200g reduction; Corsi et al., JAMA 2019) and increased NICU admission risk. Evidence-based alternatives for nausea (doxylamine/pyridoxine, ondansetron, ginger) should be offered. A non-judgmental motivational interviewing approach supports the therapeutic alliance."},
           {text:"Recommend switching to CBD-only products as a safer alternative",correct:false,feedback:"There are insufficient safety data on prenatal CBD exposure. CBD products are unregulated and frequently contain undisclosed THC (Bonn-Miller et al., JAMA 2017 found 21% of tested products contained THC). No cannabinoid product should be recommended during pregnancy."},
           {text:"Report to child protective services given substance use during pregnancy",correct:false,feedback:"Prenatal cannabis use alone does not warrant CPS involvement in most jurisdictions. Punitive approaches are counterproductive and deter patients from disclosing substance use or seeking prenatal care. ACOG opposes punitive legislation for substance use during pregnancy."}
